@@ -1,0 +1,17 @@
+body {
+    background: url("../img/cielo.jpg");
+    background-attachment: fixed; /*Para hacer que la imagen siempre se este mostrando y no se corte */
+  }
+  
+  #logo {
+    background: #1f87C4;
+  }
+  
+  /* Efecto hover (al pasar por encima */
+  #menu ul li:hover {
+    background: #1f87C4;
+  }
+  
+  .button-more {
+    background: #1f87C4;
+  }

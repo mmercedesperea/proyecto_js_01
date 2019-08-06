@@ -1,0 +1,17 @@
+body {
+    background: url("../img/rojo.jpg");
+    background-attachment: fixed; /*Para hacer que la imagen siempre se este mostrando y no se corte */
+  }
+  
+  #logo {
+    background: #CA3413;
+  }
+  
+  /* Efecto hover (al pasar por encima */
+  #menu ul li:hover {
+    background: #CA3413;
+  }
+  
+  .button-more {
+    background: #CA3413;
+  }
