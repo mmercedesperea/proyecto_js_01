@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     // Slider
 
-    if ((window.location.href.indexOf('index') > -1) || (window.location.href.indexOf('') ) )  { // para comprobar de que la pagina tiene en su URL Index (que index sea mayor que -1)para que no de error si no es asi
+    if ((window.location.href.indexOf('index') > -1) || (window.location.href.indexOf('/') ) )  { // para comprobar de que la pagina tiene en su URL Index (que index sea mayor que -1)para que no de error si no es asi
 
         $('.galeria').bxSlider({
             mode: 'fade',
