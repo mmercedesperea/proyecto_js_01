@@ -73,25 +73,31 @@
 
           <form action="" method="POST" id="form_contact">
             <label for="name">Nombre</label>
-            <input type="text" name="name" data-validation="alphanumeric"/> <!--  data-validation="alphanumeric" lo usamos gracias a el pluggin de validacion  con Jquery que hemos añadido arriba -->
+            <input type="text" name="name" data-validation="alphanumeric" />
+            <!--  data-validation="alphanumeric" lo usamos gracias a el pluggin de validacion  con Jquery que hemos añadido arriba -->
 
             <label for="surname">Apellidos</label>
             <input type="text" name="surname" data-validation="alphanumeric" />
 
             <label for="email">Email</label>
-            <input type="email" name="email" data-validation="email"  />
+            <input type="email" name="email" data-validation="email" />
 
             <label for="sex">Sexo</label>
-            <select name="sex"  data-validation="required">
+            <select name="sex" data-validation="required">
               <option value="men">Hombre</option>
               <option value="woman">Mujer</option>
             </select>
 
             <label for="date">Fecha de nacimiento</label>
-            <input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy" />
+            <input
+              type="text"
+              name="date"
+              data-validation="date"
+              data-validation-format="dd-mm-yyyy"
+            />
 
             <label for="year">Edad</label>
-            <input type="number" name="year" data-validation="number"/><br>
+            <input type="number" name="year" data-validation="number" /><br />
 
             <input type="submit" value="Enviar" />
           </form>
