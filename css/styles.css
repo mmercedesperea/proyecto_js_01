@@ -78,7 +78,7 @@ h2 {
 }
 
 .post .date {
-  display: block; /* se le pone el display block para que el margin-top durga efecto*/
+  display: block; /* se le pone el display block para que el margin-top surga efecto*/
   color: gray;
   margin-top: 10px;
 }
